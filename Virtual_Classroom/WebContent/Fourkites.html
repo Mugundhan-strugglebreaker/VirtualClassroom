@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Virtual Classroom</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+ 
+</head>
+<body>
+  <div class="box-area">
+    <header>
+        <nav>
+          <center><p style="font-weight: bold; text-align: center; font-size: 40px;">Virtual Classroom</p></center>
+      <a href="https://www.fourkites.com/">About the Company</a> 
+      <a href="https://www.glassdoor.co.in/Interview/FourKites-Software-Developer-Interview-Questions-EI_IE1373559.0,9_KO10,28.htm">Fourkites Interview Questions</a> 
+      <a href="https://www.justcrackinterview.com/interviews/fourkites/">Practice Fourkites Questions</a>
+      <a href="http://localhost:8080/Virtual_Classroom/placement.html">Back</a>
+        </nav>
+    </header>
+    <div class="banner-area">
+        <div class="mySlides fade">
+          <img src="./images/Fourkites3.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/Fourkites2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/Fourkites3.jpg" style="width:100%">
+        </div>
+    </div>
+    <div class="content-area">
+      <div class="wrapper">
+        <h2>Interview Process</h2>
+        <pre>
+          <b>Round 1: (CODING ROUND 3 hr: 6 MCQ’s, 2 CODING QUESTIONS,   PLATFORM: HACKEREARTH)</b>
+          
+          <b>Question no: 1 Ordered Substrings</b>
+
+          You are given a string X. You have to generate the set (all unique) of all the substrings of X and then sort that set lexicographically. Now to have to tell 
+          the rank of the string X in the new set formed.
+          
+          Note: String X contains only lowercase English letters.
+          eg : “eren”
+
+          Lexicograhically Sorted set of unique substrings of X = {“e”, “en”, “er”, “ere”, “eren”, “n”, “r”, “re”, “ren”}
+          
+          Rank of “eren” = 5
+
+          Note: Time complexity matters, optimize your algorithm
+ 
+          <b>Question no:2  Walls</b>
+
+          Consider N walls, each of unit width, situated next to each other.
+          You have to select any two walls i and j (1<=i, j<=N) such that if you break all walls except i and j and fill the spaces between them with water, then 
+          the amount of water stored is maximum.
+          
+          Write a program to find the maximum amount of water that can be accumulated between the walls.
+          eg: 1 2 3 4 5
+
+          Ans: we choose wall 2 and 5, the amount of water that can be stored will be the distance between walls i.e (5-2-1) = 4 which is maximum.
+ 
+         <b>They were having two different set, in set 2, the second question was:</b>
+
+ 
+         <b>Question no:2 Beautiful strings</b>
+          
+          You know vowels (a, e,  i,  o, u)  A number is given N, You have to generate all string of length N from vowels and tell the number of unique strings 
+          generated lexicographically.
+          eg:
+          N=1
+          The strings generated {“a”, “e”, “i”, “o”, “u”} = 5
+          N=2
+          The strings generated {“aa”, “ae”, “ai”, “ao”, “au”, “ee”, “ei”, “eo”, “eu”, “ii”, “io”, “iu”, “oo”, “ou”, “uu”} = 15
+ 
+
+        <b>Round 2: (TECHNICAL ROUND 1)</b>
+
+        At first, I made him discuss my projects, I explained my projects thoroughly, he became very happy with my projects. The interviewer was a youth 
+        and experienced engineer working with Fourkites and asked really smart questions based on what I was explaining on my projects. 
+        ( Btw this is the only part where GFG can’t help you).
+
+        Then he asked 2 coding questions and 1 DBMS question
+
+        <b>Question 1:</b>
+
+           An array is given with redundant numbers. You have to save the unique numbers in that array only without using any extra space.
+
+           You have to tell him the optimized approach.
+
+        <b>Question 2: </b>
+
+          When you shoot the aim board the value you get is the multiplication of both adjacent with the addition of the shooted aim board. You have 
+          to find the maximum value you can generate.
+
+          NOTE: For first and last aim board only one adjacent is there so consider other as 1.
+
+          eg: 3 2 5 4 1
+          
+          when you shoot 2, the value generated is 3*5 + 2 and so on…
+          Then, You have to tell him the order in which you will shoot. (BTW this was DP problem)
+
+
+        <b>Question 3:</b>
+
+          You have to design a database for a data center, which contains racks and the racks contain servers, the type of the servers were given.
+
+          Then he told me to normalize the table, but after normalizing, there were some problems arose and actually, I solved all of those maybe that was my day.
+
+          The session went on for 80 – 90 mins. Towards the end, he told me that he liked how passionately I was explaining my work and projects mentioned 
+          in Resume and the overall interview was very good, he was actually impressed.
+
+ 
+        <b>Round 3: (TECHNICAL ROUND 2)</b>
+
+        The interviewer was the director sir itself, asked 3 questions and discussed my internship project
+
+        <b>Question 1:</b>
+
+          A tree is given, what you have to do is you have to make all leaf nodes 0, and to the just upper node you have to save the value of both children, 
+          and then return the value of node + the previous value to up and save …
+
+          You have to write code, then I was using extra O(1) space to save the temporary value of the node in a variable to return, then he asked me 
+          to do question without any extra space.
+
+        <b>Question 2:</b>
+
+         The peoples are represented by nodes and each edge means they have taken a selfie with a phone, now that phone is lost and you have find out the 
+         owner of the phone lying in the graph.
+ 
+ 
+        <b>Question 3:</b>
+
+         You have given a new mobile phone and a dictionary, now you have to design a keyboard software, i.e. when you write a word eg. ‘t’, it will 
+         probabilistically predict the top 5 ranked words starting with letter ‘t’ and recommend them to the user, he asked me the approach and how 
+         I will use probability in it.
+          
+        { I actually used the Presentation Layer: Data Compression, context-dependent-coding concept to answer this question, which says some characters 
+          often occur adjacent to each other i.e. ‘t’ is generally followed by ‘h’, ‘q’ is generally followed by ‘u’.}
+
+        The session went on for 80 – 90 mins.
+        
+        By the end of the round, he asked if I had any questions for him.
+ 
+
+        <b>Round 4: (HR ROUND)</b>
+        
+        This round was just a formality.
+ 
+        Finally, I was 1 of the 6 candidates selected for FourKites, Chennai, out of 39 students interviewed there.
+
+        </pre>
+        
+      </div>
+    </div>
+  </div>
+   <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 2000); 
+}
+</script>
+</body>
+</html>

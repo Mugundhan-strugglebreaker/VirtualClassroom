@@ -1,0 +1,105 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-image: url(https://wallpapercave.com/wp/huDiDyr.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: new time 'Times New Roman', Times, serif;
+}
+
+.mic
+{
+    margin-left: 60px;
+}
+
+h1
+{
+    font-size: 40px;
+    color: white;
+    margin-top: 250px;
+}
+
+p
+{
+    font-size: 17px;
+    color: white;
+}
+
+.mov
+{
+    width: 70%;
+    margin:auto 30px;
+}
+
+.login-col
+{
+    margin-top: 100px;
+}
+
+.jib
+{
+    width: 40%;
+    margin: auto;
+    padding-left: 34px;
+}
+
+.glyphicon-pencil
+{
+    font-size: 35px;
+    color: white;
+    float:right;
+    margin-top: 20px;
+}
+
+.spc
+{
+    margin-top: 20px;
+}
+
+.col-md-5
+{
+    margin-top: 130px;
+    box-shadow: -1px 1px 60px 10px black;
+    background: rgba(0,0,0,0.4);
+}
+
+.form-control
+{
+    background:transparent;
+    border-radius: 5px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    margin-top: 15px;
+    height: 40px;
+    color: white;
+}
+
+.label
+{
+    font-weight: normal;
+    margin-top: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+.btn
+{
+    margin-top: 35px;
+}
+
+.hed
+{
+    margin-bottom: -20px;
+}
+
+.col-md-7
+{
+    margin-top: -40px;
+}
+

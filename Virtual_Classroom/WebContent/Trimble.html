@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Virtual Classroom</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+ 
+</head>
+<body>
+  <div class="box-area">
+    <header>
+        <nav>
+          <center><p style="font-weight: bold; text-align: center; font-size: 40px;">Virtual Classroom</p></center>
+      <a href="https://www.trimble.com/Corporate/About_at_Glance.aspx">About the Company</a> 
+      <a href="https://www.geeksforgeeks.org/tag/trimble/">Practice Coding Questions</a> 
+      <a href="https://www.glassdoor.co.in/Interview/Trimble-Software-Engineer-India-Interview-Questions-EI_IE2067.0,7_KO8,25_IL.26,31_IN115.htm">Practice Questions</a>
+      <a href="http://localhost:8080/Virtual_Classroom/placement.html">Back</a>
+        </nav>
+    </header>
+    <div class="banner-area">
+        <div class="mySlides fade">
+          <img src="./images/trimble_1.png" style="width:50%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/Trimble_2.png" style="width:50%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/trimble_3.png" style="width:50%">
+        </div>
+    </div>
+    <div class="content-area">
+      <div class="wrapper">
+        <h2>Interview Process</h2>
+        <pre>
+          <b>Round 1 :</b>
+                       
+                        Technical and 2 codings
+
+          <b>Round 2</b>
+                       
+                        Technical interview which takes 1hr30mints
+        
+          <b>Round 3</b>
+                
+                        Manager round which takes 1hr. Just asking puzzle like questions
+         
+          <b>Round 4</b>
+
+                        HR round which takes 15mints. Just checking ur communication skills
+
+        </pre>
+         <h2>Interview Experience</h2>
+         <h2></h2>
+        <pre>
+
+          <b>Round-1</b>
+
+            The first round comprised of 40 MCQ questions including aptitude, logical, C output questions and technical portions and 5 programming questions(Test Duration: 90 mins) :-
+            Technical aptitude part covered questions from computer networks, operating system, data structures,database management system and software engineering.
+            You can solve the programming questions in c,c++,java ,python.          
+
+           <b>Round-2</b> 
+
+            Round 2 involves technical interview.
+            Usually Trimble conducts at least three technical interviews.
+            Prepare the concepts of your areas of interest.
+            Questions are asked in data structures and database management system(normalization and joins)
+            Prepare puzzles from geeks for geeks.
+            Puzzles are asked to check your logical thinking
+
+
+           <b>Round-3:</b> 
+
+            Personal interview is all about your family,goals and interests.
+            Questions raised are
+            Where do you see yourself in 5 years?
+            What is your strength and weakness?
+            
+            
+           <i><b>Tips: </b>Cracking Trimble interview is simple if you are well prepared in database(sql) and data structures.</i>
+                  
+
+        </pre>
+      </div>
+    </div>
+  </div>
+   <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 2000); 
+}
+</script>
+</body>
+</html>

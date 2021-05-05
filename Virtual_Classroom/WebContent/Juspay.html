@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Virtual Classroom</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+ 
+</head>
+<body>
+  <div class="box-area">
+    <header>
+        <nav>
+          <center><p style="font-weight: bold; text-align: center; font-size: 40px;">Virtual Classroom</p></center>
+      <a href="https://juspay.in/">About the Company</a> 
+      <a href="https://www.glassdoor.co.in/Interview/JUSPAY-Interview-Questions-E1102352.htm">Juspay Interview Questions</a> 
+      <a href="https://www.youtube.com/watch?v=Per2-dDdn0U">Watch Interview Pattern</a>
+      <a href="http://localhost:8080/Virtual_Classroom/placement.html">Back</a>
+        </nav>
+    </header>
+    <div class="banner-area">
+        <div class="mySlides fade">
+          <img src="./images/Juspay2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/Juspay1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/Juspay2.jpg" style="width:100%">
+        </div>
+    </div>
+    <div class="content-area">
+      <div class="wrapper">
+        <h2>Interview Process</h2>
+        <pre>
+
+          <b>Recruitment Process :</b>
+
+          JUSPAY conducts 3-5 rounds to select freshers as Software Engineer in their organisation.
+
+          1.Aptitude Round
+          2.Online Coding Round
+          3.Technical Round 1
+          4.Technical Round 2
+          5.HR Round
+
+          <b>Academic Criteria :</b>
+
+          70 percent or above in B.Tech, Class X and XII.
+
+          No backlogs at the time of interview
+
+
+          <b>Written Round :</b>
+
+          The Aptitude round consists of three major sections namely General Aptitude Test, Verbal Ability Test and Technical Test. General Aptitude Test, 
+          has mathematical reasoning part and logical reasoning part.
+
+
+          <b>Online Coding Round :</b>
+
+          The students who clear the aptitude round are called for coding round. To clear this round you should be strong with data structures and algorithms. 
+
+          You should be prepared Stack, queue, Tree, and Graph along with code optimization.
+
+          <b>Technical Rounds :</b>
+
+          The students who clear the coding round are called for Technical Interview.To clear this round you should be clear with your basics. 
+
+          You should be prepared with Data structures and Algorithms, DBMS, and OOPs concepts. Students will be expected to write codes in the interview. 
+
+          You could be expected to optimize your previous round codes. You can expect questions from resume. You may be asked puzzles in this round. 
+
+          To be prepared for puzzles you can practice from our Puzzles section.
+
+
+         <b>HR Round :</b>
+
+          Sometimes they only ask HR questions like :
+          1. Tell me about Yourself
+          2. Why JUSPAY ?
+          3. How you see yourself after five years from now ?
+          4. What are your strengths and weaknesses ?
+          5. Questions form resume
+
+
+        </pre>
+      
+         <h2></h2>
+        <pre>
+          
+
+        </pre>
+      </div>
+    </div>
+  </div>
+   <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 2000); 
+}
+</script>
+</body>
+</html>

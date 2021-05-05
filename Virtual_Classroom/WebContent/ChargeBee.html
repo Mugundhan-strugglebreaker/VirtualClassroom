@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Virtual Classroom</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+ 
+</head>
+<body>
+  <div class="box-area">
+    <header>
+        <nav>
+          <center><p style="font-weight: bold; text-align: center; font-size: 40px;">Virtual Classroom</p></center>
+      <a href=" https://www.chargebee.com/company/">About the Company</a> 
+      <a href="https://www.faceprep.in/robert-bosch/robert-bosch-interview-questions/">ChargeBee Interview Questions</a> 
+      <a href="https://www.mathsisfun.com/puzzles/index.html">Practice Puzzle Question </a>
+      <a href="http://localhost:8080/Virtual_Classroom/placement.html">Back</a>
+        </nav>
+    </header>
+    <div class="banner-area">
+        <div class="mySlides fade">
+          <img src="./images/ChargeBee1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/ChargeBee2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/ChargeBee3.jpg" style="width:100%">
+        </div>
+    </div>
+    <div class="content-area">
+      <div class="wrapper">
+        <h2>Interview Process</h2>
+        <pre>
+          
+             <b> Round 1 : (1.5 hrs)</b>
+
+                *there were few c based output questions.
+                *programs with blanks were given and we were asked to fill .
+                *Error identification in a program .
+
+             <b>Round 2 :(Written code)</b>
+
+                1)To check whether a hour glass is fully filled or not. Function must return 1 if full 
+                and 0 if not where n >=5 (n is the number of lines)
+                * – – – *
+                * – *
+                *
+                * * *
+                * * * * *
+                Fully filled in bottom half.. So return True .
+
+
+                2)Given a Word
+                    To find all the anagrams of the word in a given sentence .
+                    
+                3)Given a sentence . To increment the count for each character , if that character is 
+                coming in a word (from the given sentence) more than once .
+                    Eg:
+                    Given sentence : mississippi River
+                    result : the counter array
+                    i=1;
+                    p-1;
+                    r=1;
+                    s=1;
+
+            <b>Round 3:(coding)</b>
+
+                Was asked to code all questions from the previous round(r2)
+                –was eliminated from this round
+                
+                followed by a long coding round and then 3 rounds of technical interviews .
+                
+                4 people were selected finally as ChargeBeEs :P:P
+                
+                Though got eliminated pretty early.. This was a great interview experience..
+
+
+
+        </pre>
+         <h2>Sample Questions asked in ChargeBee</h2>
+         <h2></h2>
+        <pre>
+         
+
+            1.Given an array and a set of operations on it, perform those in sequence to the array.
+                
+                Example: given array : 12345
+                Operations to be performed in order : L1,R2,R1,L3
+                L1 : shift left once,R2 : shift right twice…etc
+
+            2.Given an array of size n of integer type containing the integers from 1 to n (both including),
+              print how many times each integer is repeated. There is no rule that every integer in the range 
+              1 to n will be present in the array. Solve the problem using only one additional variable.
+                
+                Example: n= 5
+                Array : 12341
+                Answer : 1 – 2 times
+                2 – 1 time
+                3 – 1 time
+                4 – 1 time
+
+            3. Print this pattern
+                * * * * *
+                * * *
+                *
+                * * *
+                * * * * *
+
+            4. A code is given which prints the sum of even and odd numbers in the given set of numbers.
+               Identify the error and rectify it.
+
+
+            5. Given two integers m and n,write code for m power n without using exponent operation.
+
+            6. Doubly linked list insertion and deletion.
+
+            7. Measure 9 min using two 4 min and 7 min sand glass.
+
+            8. 2 DBMS queries.(don’t remember)
+
+
+
+
+
+        </pre>
+      </div>
+    </div>
+  </div>
+   <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 2000); 
+}
+</script>
+</body>
+</html>

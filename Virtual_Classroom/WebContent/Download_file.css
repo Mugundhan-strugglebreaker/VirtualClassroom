@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+body
+{
+background-image: url(https://wallpapercave.com/wp/huDiDyr.jpg);
+background-size: cover;
+background-attachment: fixed;
+font-family: new time 'Times New Roman', Times, serif;
+}
+
+.spc
+{
+    margin-top: 60px;
+}

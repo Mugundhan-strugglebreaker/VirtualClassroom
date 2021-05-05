@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Virtual Classroom</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+ 
+</head>
+<body>
+  <div class="box-area">
+    <header>
+        <nav>
+          <center><p style="font-weight: bold; text-align: center; font-size: 40px;">Virtual Classroom</p></center>
+      <a href="http://sanmargroup.com/index.php">About the Company</a> 
+      <a href="https://prep.placementseason.com/companies/sanmar-2/">Practice Coding Questions</a> 
+      <a href="https://www.indeed.com/cmp/Sanmar/interviews">Practice Questions</a>
+      <a href="http://localhost:8080/Virtual_Classroom/placement.html">Back</a>
+        </nav>
+    </header>
+    <div class="banner-area">
+        <div class="mySlides fade">
+          <img src="./images/sanmar_1.png" style="width:50%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/sanmar_2.jpg" style="width:50%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/sammar_3.png" style="width:50%">
+        </div>
+    </div>
+    <div class="content-area">
+      <div class="wrapper">
+        <h2>Interview Process</h2>
+        <pre>
+          <b>Test Description</b>
+                       
+           * Sanmar interview process includes 4 rounds
+
+           * Online Test
+
+           *  Group Discussion
+
+           * Technical Interview
+
+           * Personal HR
+
+        </pre>
+         <h2>Interview Experience</h2>
+         <h2></h2>
+        <pre>
+          <b>Round 1&2 Online Test</b>
+
+          * Sanmar online test concentrates more on Reasoning, English Grammar and Technical section.
+          * Reasoning section focuses on topics like Data Arrangement, Data Sufficiency, Data Interpretation,
+             Syllogism, Puzzles and, Visual Reasoning
+          * Concentrate more on the technical section which includes C, OOPS, and Java. Since there isn’t any negative marking try to attend maximum questions to score better.
+          
+
+           <b>Round 3 Group Discussion:</b> 
+
+           Initiating a GD is as important as talking relevant information.
+           You can use statistics and real-time examples if you are really aware of it. You will get a positive impression if your stats and examples are right.
+           You can tell boldly if your co-participants are deviating from the topic. It can help you score better and always remember a good listener is a good speaker.
+           
+
+           <b>Round 4 & 5 Technical and Personal HR:</b> 
+
+           Technical Interviews and Personal Interviews are to evaluate how good an aspirant is in his/her domain. Focus on the topics given below and perform well during the interview.
+           Applied Chemistry, Hydraulics and pneumatics,  Foundry related manufacturing topics
+           Basic Electronics, Analog and Digital electronics, VLSI, Digital Electronics, Embedded Systems, and Signals
+           
+        </pre>
+      </div>
+    </div>
+  </div>
+   <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 2000); 
+}
+</script>
+</body>
+</html>

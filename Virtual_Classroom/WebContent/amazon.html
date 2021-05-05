@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Virtual Classroom</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+ 
+</head>
+<body>
+  <div class="box-area">
+    <header>
+        <nav>
+          <center><p style="font-weight: bold; text-align: center; font-size: 40px;">Virtual Classroom</p></center>
+      <a href="https://en.wikipedia.org/wiki/Amazon_(company)#:~:text=Amazon%20was%20founded%20by%20Jeff,food%2C%20toys%2C%20and%20jewelry.&text=Amazon%20is%20the%20largest%20Internet%20company%20by%20revenue%20in%20the%20world.">About the Company</a> 
+      <a href="https://practice.geeksforgeeks.org/explore/?category%5B%5D=Arrays&category%5B%5D=Strings&problemType=functional&page=1&sortBy=submissions&company%5B%5D=Amazon&category%5B%5D=Arrays&category%5B%5D=Strings">Practice Coding Questions</a> 
+      <a href="https://practice.geeksforgeeks.org/explore/?problemType=functional&page=1&sortBy=submissions&company%5B%5D=Amazon&category%5B%5D=Sorting&category%5B%5D=Tree&category%5B%5D=Graph&category%5B%5D=Recursion&category%5B%5D=Linked%20List">Practice DataStructure Questions</a>
+      <a href="http://localhost:8080/Virtual_Classroom/placement.html">Back</a>
+        </nav>
+    </header>
+    <div class="banner-area">
+        <div class="mySlides fade">
+          <img src="./images/amazon1.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/amazon2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/amazon3.jpg" style="width:100%">
+        </div>
+    </div>
+    <div class="content-area">
+      <div class="wrapper">
+        <h2>Interview Process</h2>
+        <pre>
+          <b>1.Written Round :</b>
+                       
+                        Aptitude/Logical and Technical (C,C++,OS,DS,inheritance,functions).
+
+          <b>2.Online Coding Round: 3-4 Coding Questions</b>
+                       
+                        * intermediate difficulty.
+                        *Topics  : Arrays,String ,Matrices.
+        
+          <b>3.Technical Round : 2-4 Question.</b>
+                
+                        *Topics : Arrays, Trees,Dynamic Programming.
+         
+          <b>4.Technical Round-1</b>
+
+                        *face to face algorithmic round.
+                        * 2-4 Questions all from data structures.(matrices,BST,Binary tree,Linked List)
+         
+          <b>5.Technical Round-2</b>
+
+                        * same as previous Difficulties is increased  (Trees, BST, and Tries ).
+                        *Clear about tree recursions and standard problems.
+         
+          <b>6.Hiring Manager Round</b>
+
+                        *More technical intensive round. Questions about project we have done.
+            the technology used in them,  design problems and DS/Algo problems and tricky puzzle-like questions.
+
+          <b>7. HR Round:</b>
+
+                        You can expect HR questions like :
+                        * Tell me about Yourself, your family
+                        * How do you see yourself five years from now?
+                        * What are your strengths and weaknesses?
+                        * Some technical questions can also be asked from topics like OOPs
+
+        </pre>
+         <h2>Interview Experience</h2>
+         <h2></h2>
+        <pre>
+          <b>Amazon visited our campus around late September to hire for the role of Software Developer Intern. 
+
+             There were 3 rounds involved in the process.</b>
+
+
+              *An online test
+              *Two technical interviews.
+             
+            The online test was organized on Mettl Platform and consisted of the following parts :
+
+           <b>Debugging:</b> 
+
+                Had to apply some changes to a given code snippet to make it logically and syntactically correct.
+            Psychometric Test: Situational questions.
+
+           <b>Reasoning:</b> 
+
+                Was relatively easier than you would usually find in other placement tests.
+            
+           <b>Two coding questions :</b> 
+              
+              Rewrite of Search in a matrix:<a href="https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/"> Click here</a>
+              Rewrite of Bridges in a graph: <a href="https://www.geeksforgeeks.org/bridge-in-a-graph/">Click here</a>
+            
+            <b>Technical Round 1:</b>
+
+            Started with the introduction.
+            
+            <b>Then two coding questions were asked :</b>
+                 
+                  Given the data of n buses in a bus station with their arrival and departure time, find the minimum number  of platforms required
+                  so that none of the buses overlap: <a href="https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/">Click</a>
+
+                  Gave an O(nlogn) solution by sorting all the timings.
+
+                  Given a binary matrix, find the number of shapes and their parameter (length) present in the matrix. A shape is a sequence of consecutive ones,
+                  and we can move in all eight directions:<a href="https://www.geeksforgeeks.org/find-number-of-islands/">Click</a> 
+            
+                  Solved using BFS.
+                  Discussion on time and space complexities of each problem.
+            
+            <b>Technical Round 2 :</b>
+
+                  Again started with the introduction and simple questions related to one of my projects.
+           
+            <b>Then 2 coding questions :</b>
+
+                   Given the prices of n stocks find the maximum profit that can be made by doing at most k transactions:
+                   <a href="https://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-a-share-at-most-k-times/">Click</a> 
+              
+                   First I gave an O(n3) DP solution, then optimized it to O(n2).
+                  
+                   Given the heights of walls arranged from left to right find the volume of water that will be trapped between the walls: <a href="https://www.geeksforgeeks.org/trapping-rain-water/">Click</a>
+                  
+                   Gave an O(n) solution using the maximum wall to right and left for each wall.
+                    
+                   Discussion on time and space complexities for each problem.
+
+        </pre>
+      </div>
+    </div>
+  </div>
+   <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 2000); 
+}
+</script>
+</body>
+</html>

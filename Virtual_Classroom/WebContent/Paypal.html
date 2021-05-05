@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Virtual Classroom</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+ 
+</head>
+<body>
+  <div class="box-area">
+    <header>
+        <nav>
+          <center><p style="font-weight: bold; text-align: center; font-size: 40px;">Virtual Classroom</p></center>
+      <a href="https://en.wikipedia.org/wiki/PayPal">About the Company</a> 
+      <a href="https://practice.geeksforgeeks.org/explore/?problemType=full&page=1&sortBy=submissions&company%5B%5D=PayPal">Practice Coding Questions</a> 
+      <a href="https://www.glassdoor.co.in/Interview/PayPal-Interview-Questions-E9848.htm">Practice DataStructure Questions</a>
+      <a href="http://localhost:8080/Virtual_Classroom/placement.html">Back</a>
+        </nav>
+    </header>
+    <div class="banner-area">
+        <div class="mySlides fade">
+          <img src="./images/paypal1.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/paypal2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/paypal3.jpg" style="width:100%">
+        </div>
+    </div>
+    <div class="content-area">
+      <div class="wrapper">
+        <h2>Interview Process</h2>
+        <pre>
+         
+         <b>Interview Rounds</b>
+
+          <b>Online Round</b>
+
+          There were around 20 MCQs ( No technical questions ).
+          There were 2 Einstein puzzles.
+          Other questions included few logical and few quantitative aptitude questions.
+          The time given was 45 minutes.
+          The next section had two coding questions out of which one is to be answered. The questions were
+              • Given an array of n elements, rotate k elements to the left or right based on the flag value
+              • Finding minimum edit distance in a string
+
+          <b>Technical Round 1</b>
+
+          1. The interviewer asked me to explain the code which was asked during the first round and trace it with an example.
+          2. Given an Arabic number write a code to convert it to corresponding roman number.
+
+          <b>Technical Round 2</b>
+
+          1. As my project was based on Graph there were few questions on Graphs.
+          2. Then he asked me few questions on arrays,linked list and trees.
+          3. In DBMS he mainly focused on ER model . I was given a scenario and was asked to design a ER as well as Relational model for the same.
+
+          <b>HR Round</b>
+
+        • Strengths and weakness
+        • How will I face criticisms and asked me to state 2 such situations
+        • Secret behind my consistent performance in academics
+        • Leadership qualities
+        • Few scenario based questions
+        • Why PayPal
+        • Why should we hire you and what makes you different from others
+
+
+        </pre>
+         <h2>Interview Experience</h2>
+         <h2></h2>
+        <pre>
+          <b>Way of Preparation:</b>
+            geeksforgeeks, Leetcode, InterviewBit, HackerEarth
+
+          <b>Overall Experience:</b>
+
+           Overall Interview process went smoothly and the interviewers were very friendly.
+
+          <b>General Tips for Placement:</b>
+
+           Be calm and prepare well for DSA, OS, Networking, DBMS, System design, OOPs concepts and know about your resume very well. 
+
+           Please also see the previous interview encounters (at least recent ones) on geeksforgeeks (Yes, they do help). 
+
+        </pre>
+      </div>
+    </div>
+  </div>
+   <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 2000); 
+}
+</script>
+</body>
+</html>
+
