@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+body
+{
+    background-color : #e3e3e3;
+}
+ul
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+text-align: right;
+}
+
+li
+{
+background-repeat: no-repeat;
+background-position: 100% .4em;
+padding-right: .6em;
+}
+.forwardUpload
+{
+	background-color: #C0C0C0;
+	width: 30%;
+	padding:40px;
+	
+}
+.forwardDownload
+{
+	background-color: lightgreen;
+	width: 30%;
+	padding:40px;
+}
